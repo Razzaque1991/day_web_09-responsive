@@ -48,3 +48,141 @@ body{
     padding: 80px;
 }
 /*------------------------------------------- banner-section-enf */
+/*---------------------------------------------- img-galary-start */
+.img-container{
+    text-align: center;
+    margin-top: 80px;
+}
+.img-container h1{
+    font-size:40px;
+    font-weight:800;
+    margin-bottom: 20px;
+}
+.img-container p{
+    font-size:18px;
+    font-weight:400;
+    color: rgb(51, 49, 49);
+    margin-bottom: 20px;
+}
+.img-galary{
+    width:1440px;
+    height:605px;
+    margin: 0 auto;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+.img-galary .img1, .img2, .img3 {
+    width: 320px;
+    background-color: aquamarine;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 180px;
+    border-top-right-radius: 180px;
+    margin-top: 20px;
+}
+
+.img1, .img2, .img3{
+    display: flex;
+    flex-direction: column;
+}
+
+.img1 figcaption {
+    margin-top: 50px;
+}
+
+
+
+.img1 .img2 .img3, img{
+    max-width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+/*------------------------------------------------ img-galary-end */
+
+/*--------------------------------------- delivery-section-start */
+.delivery-container{
+    width:1440px;
+    height:220px ;
+    background-color:rgb(207, 202, 202);
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container--delivery{
+    width:1090px;
+    height:147px;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--------------------------------------- delivery-section-end  */
+
+
+
+/*------------------------------------ hot-dell-section-start */
+span{
+    color: red;
+}
+.hot{
+    font-size: 50px;
+}
+#hot-dill-banner{
+    text-align: center;
+}
+/*------------------------------------ hot-dell-section-end */
+
+/*------------------------------- instragram-section-start */
+.card{
+    width: 500px;
+    height: 500px;
+}
+/*------------------------------- instragram-section-end  */
+
+
+/*----------------------------------- input-section-start */
+.input-container{
+    width: 1440px;
+    height:449px;
+    background-image: url(../imahes/Rectangle\ 9.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-heading h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.input-heading p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.input-area input{
+    width: 600px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+}
+
+ 
+
+.input-area button{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: red;
+    color: wheat;
+    border: none;
+}
+/*----------------------------------- input-section---end */
