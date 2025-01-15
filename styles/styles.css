@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* google fonts */
+
+/*   font-family: "Work Sans", serif;   #*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Work Sans", serif; 
+}
+
+/*----------------------------------------- banner-section-start */
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9d0d6;
+    width: 1920px;
+    height: 850px;
+}
+.left-banner h1{
+    font-size: 80px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: black;
+}
+.left-banner p{
+    font-size:18px;
+    font-weight:400px;
+    color: rgb(49, 47, 47);
+    margin-bottom: 10px;
+}
+.banner-btn .btn-banner {
+    width: 120px;
+    height: 50px;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+.right-banner-image{
+    padding: 80px;
+}
+/*------------------------------------------- banner-section-enf */
